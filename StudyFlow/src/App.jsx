@@ -34,9 +34,56 @@ function App() {
             <p>Enrolled Courses</p>
           </div>
         </div>
+
+        <div className="courses">
+          <div className="Task">
+            <h2>Upcoming Tasks</h2>
+            <p>
+              <a href="/task"> View all </a>
+            </p>
+          </div>
+
+          <div>
+            <label htmlFor="task">
+              <input type="radio" myRadio="" id="task" /> Read Chapter 7 -
+              Memory & Cognition
+              <p> MATH 202</p>
+            </label>
+
+            <div>
+              <p>High</p>
+              <p>Today</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div className="Exam">
+            <h2>Exam Countdown</h2>
+            <p>
+              <a href="/exam">View all </a>
+            </p>
+          </div>
+
+        <div>
+            <label htmlFor="task">
+              <input type="radio" myRadio="" id="task" /> Read Chapter 7 -
+              Memory & Cognition
+              <p> MATH 202</p>
+            </label>
+
+            <div>
+              <p>High</p>
+              <p>Today</p>
+            </div>
+          </div>
+        </div>
+
+        </div>
       </div>
     </div>
   );
 }
+<p>You are enrolled in 4 courses.</p>;
 
 export default App;
