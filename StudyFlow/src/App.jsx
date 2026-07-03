@@ -34,8 +34,8 @@ function App() {
           </div>
         </div>
 
-        <div className="courses">
-          <div className="Tasks">
+        <div className="courses flex justify-between gap-4">
+          <div className="Tasks bg-white rounded-lg shadow-md w-3xl p-4 flex flex-col items-left">
             <div className="heading">
               <h2 className="text-black-700 font-bold">Upcoming Tasks</h2>
               <p className="text-blue-500">
@@ -44,14 +44,16 @@ function App() {
             </div>
 
             <div>
-              <label htmlFor="task">
-                <input type="radio" myRadio="" id="task" /> Read Chapter 7 -
-                Memory & Cognition
+              <label htmlFor="task flex flex-col">
+                <input type="radio" myRadio="" id="task" />
+                <p>Complete Problem Set 5</p>
                 <p> MATH 202</p>
               </label>
 
               <div>
-                <p>High</p>
+                <p className="bg-red-100 text-red-500 border-1 border-red-400 rounded-2xl w-14 text-center">
+                  High
+                </p>
                 <p>Today</p>
               </div>
             </div>
@@ -64,47 +66,55 @@ function App() {
               </label>
 
               <div>
-                <p>High</p>
-                <p>Today</p>
+                <p className="bg-red-100 text-red-500 border-1 border-red-400 rounded-2xl w-14 text-center">
+                  High
+                </p>
+                <p>Tomorrow</p>
               </div>
             </div>
 
             <div>
               <label htmlFor="task">
-                <input type="radio" myRadio="" id="task" /> Read Chapter 7 -
-                Memory & Cognition
-                <p> MATH 202</p>
+                <input type="radio" myRadio="" id="task" /> Outline essay on the
+                French Revolution
+                <p> HiST 215</p>
               </label>
 
               <div>
-                <p>High</p>
-                <p>Today</p>
+                <p className="bg-red-100 text-yellow-500 border-1 border-yellow-400 rounded-2xl w-18 text-center">
+                  Medium
+                </p>
+                <p>3d</p>
               </div>
             </div>
 
             <div>
               <label htmlFor="task">
-                <input type="radio" myRadio="" id="task" /> Read Chapter 7 -
-                Memory & Cognition
-                <p> MATH 202</p>
+                <input type="radio" myRadio="" id="task" /> Submit thesis draft
+                professor
+                <p> ENG 101</p>
               </label>
 
               <div>
-                <p>High</p>
-                <p>Today</p>
+                <p className="bg-red-100 text-red-500 border-1 border-red-400 rounded-2xl w-14 text-center">
+                  High
+                </p>
+                <p>4d</p>
               </div>
             </div>
 
             <div>
               <label htmlFor="task">
-                <input type="radio" myRadio="" id="task" /> Read Chapter 7 -
-                Memory & Cognition
+                <input type="radio" myRadio="" id="task" /> Practice integration
+                by parts
                 <p> MATH 202</p>
               </label>
 
               <div>
-                <p>High</p>
-                <p>Today</p>
+                <p className="bg-yellow-100 text-yellow-500 border-1 border-yellow-400 rounded-2xl w-18 text-center">
+                  Medium
+                </p>
+                <p className="text-gray-400">5d</p>
               </div>
             </div>
           </div>
