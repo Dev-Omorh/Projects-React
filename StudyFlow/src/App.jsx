@@ -1,15 +1,14 @@
 function App() {
   return (
     <div>
-      <div className="logo">
-        {" "}
+      <div className="logo text-2xl text-black ">
         <img src="logo.png" alt="logo" /> StudyFlow
       </div>
 
       <div className="content">
         <div className="greeting">
-          <h1>Good Evening, Alex!</h1>
-          <p>Friday, July 3, 2026.</p>
+          <h1 className="text-3xl font-bold">Good Evening, Alex!</h1>
+          <p className="text-gray-600">Friday, July 3, 2026.</p>
         </div>
 
         <div className="card">
