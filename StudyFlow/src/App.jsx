@@ -36,49 +36,132 @@ function App() {
         </div>
 
         <div className="courses">
-          <div className="Task">
-            <h2>Upcoming Tasks</h2>
-            <p>
-              <a href="/task"> View all </a>
-            </p>
-          </div>
-
-          <div>
-            <label htmlFor="task">
-              <input type="radio" myRadio="" id="task" /> Read Chapter 7 -
-              Memory & Cognition
-              <p> MATH 202</p>
-            </label>
+          <div className="Tasks">
+            <div className="heading">
+              <h2 className="text-black-700 font-bold">Upcoming Tasks</h2>
+              <p className="text-blue-500">
+                <a href="/task"> View all </a>
+              </p>
+            </div>
 
             <div>
-              <p>High</p>
-              <p>Today</p>
+              <label htmlFor="task">
+                <input type="radio" myRadio="" id="task" /> Read Chapter 7 -
+                Memory & Cognition
+                <p> MATH 202</p>
+              </label>
+
+              <div>
+                <p>High</p>
+                <p>Today</p>
+              </div>
             </div>
-          </div>
-        </div>
-
-        <div>
-          <div className="Exam">
-            <h2>Exam Countdown</h2>
-            <p>
-              <a href="/exam">View all </a>
-            </p>
-          </div>
-
-        <div>
-            <label htmlFor="task">
-              <input type="radio" myRadio="" id="task" /> Read Chapter 7 -
-              Memory & Cognition
-              <p> MATH 202</p>
-            </label>
 
             <div>
-              <p>High</p>
-              <p>Today</p>
+              <label htmlFor="task">
+                <input type="radio" myRadio="" id="task" /> Read Chapter 7 -
+                Memory & Cognition
+                <p> MATH 202</p>
+              </label>
+
+              <div>
+                <p>High</p>
+                <p>Today</p>
+              </div>
+            </div>
+
+            <div>
+              <label htmlFor="task">
+                <input type="radio" myRadio="" id="task" /> Read Chapter 7 -
+                Memory & Cognition
+                <p> MATH 202</p>
+              </label>
+
+              <div>
+                <p>High</p>
+                <p>Today</p>
+              </div>
+            </div>
+
+            <div>
+              <label htmlFor="task">
+                <input type="radio" myRadio="" id="task" /> Read Chapter 7 -
+                Memory & Cognition
+                <p> MATH 202</p>
+              </label>
+
+              <div>
+                <p>High</p>
+                <p>Today</p>
+              </div>
+            </div>
+
+            <div>
+              <label htmlFor="task">
+                <input type="radio" myRadio="" id="task" /> Read Chapter 7 -
+                Memory & Cognition
+                <p> MATH 202</p>
+              </label>
+
+              <div>
+                <p>High</p>
+                <p>Today</p>
+              </div>
             </div>
           </div>
-        </div>
 
+          <div clasName="Exam">
+            <div className="heading">
+              <h2 className="text-black-700 font-bold">Exam Countdown</h2>
+              <p className="text-blue-500">
+                <a href="/exam">View all </a>
+              </p>
+            </div>
+
+            <div>
+              <div className="counting">
+                <div>
+                  <div>
+                    <p>12</p>
+                    <p>DAYS</p>
+                  </div>
+                  <div>
+                    <p>PSY101 Midterm Exam</p>
+                    <p>Jul 15</p>
+                  </div>
+                </div>
+                <div>.</div>
+              </div>
+
+              <div className="counting">
+                <div>
+                  <div>
+                    <p>15</p>
+                    <p>DAYS</p>
+                  </div>
+                  <div>
+                    <p>HIST215 Exam</p>
+                    <p>Jul 18</p>
+                  </div>
+                </div>
+                <div>.</div>
+              </div>
+
+              <div className="counting">
+                <div>
+                  <div>
+                    <p>19</p>
+                    <p>DAYS</p>
+                  </div>
+                  <div>
+                    <p>Calculus II Final</p>
+                    <p>Jul 22</p>
+                  </div>
+                </div>
+                <div>.</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
