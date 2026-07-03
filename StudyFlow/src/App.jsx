@@ -1,33 +1,33 @@
 function App() {
   return (
     <div>
-      <div className="logo text-2xl text-black ">
+      <div className="logo text-xl font-bold ">
         <img src="logo.png" alt="logo" /> StudyFlow
       </div>
 
-      <div className="content">
+      <div className="content p-4 bg-gray-100">
         <div className="greeting">
           <h1 className="text-3xl font-bold">Good Evening, Alex!</h1>
           <p className="text-gray-600">Friday, July 3, 2026.</p>
         </div>
 
-        <div className="card">
-          <div>
+        <div className="card w-full p-4 flex justify-between gap-4">
+          <div className="bg-white rounded-lg shadow-md w-3/12 p-4 flex flex-col items-left ">
             <img src="logo.png" alt="logo" />
             <p>1</p>
             <p>Due Today</p>
           </div>
-          <div>
+          <div className="bg-white rounded-lg shadow-md w-3/12 p-4 flex flex-col items-left ">
             <img src="logo.png" alt="logo" />
             <p>4</p>
             <p>Pending Assignments</p>
           </div>
-          <div>
+          <div className="bg-white rounded-lg shadow-md w-3/12 p-4 flex flex-col items-left ">
             <img src="logo.png" alt="logo" />
             <p>3</p>
             <p>Upcoming Exams</p>
           </div>
-          <div>
+          <div className="bg-white rounded-lg shadow-md w-3/12 p-4 flex flex-col items-left ">
             <img src="logo.png" alt="logo" />
             <p>4</p>
             <p>Enrolled Courses</p>
