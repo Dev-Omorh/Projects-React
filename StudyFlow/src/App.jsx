@@ -1,3 +1,5 @@
+import Tasks from "./Tasks";
+
 function App() {
   return (
     <div>
@@ -6,7 +8,7 @@ function App() {
       </div>
 
       <div className="content p-4 bg-gray-100 w-full ">
-        <div className="greeting">
+        <div className="Header">
           <h1 className="text-3xl font-bold">Good Evening, Alex!</h1>
           <p className="text-gray-600">Friday, July 3, 2026.</p>
         </div>
@@ -34,7 +36,7 @@ function App() {
           </div>
         </div>
 
-        <div className="courses w-full flex justify-between pt-4">
+        <div className=" w-full flex justify-between pt-4">
           <div className="Tasks bg-white rounded-lg shadow-md w-3xl p-4 flex flex-col items-left">
             <div className="heading flex justify-between pb-4">
               <h2 className="text-black-700 font-bold">Upcoming Tasks</h2>
@@ -260,6 +262,12 @@ function App() {
           </div>
         </div>
       </div>
+
+      <div>
+        <Tasks />
+      </div>
+
+      <div></div>
     </div>
   );
 }
