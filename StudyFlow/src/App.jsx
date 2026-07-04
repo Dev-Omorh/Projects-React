@@ -2,7 +2,7 @@ function App() {
   return (
     <div>
       <div className="logo text-xl font-bold ">
-        <img src="logo.png" alt="logo" /> StudyFlow
+        <img src="logo.png" alt="logo" /> <p>StudyFlow</p>
       </div>
 
       <div className="content p-4 bg-gray-100 w-full ">
@@ -244,7 +244,7 @@ function App() {
             <div>
               <div>
                 <span>.</span>
-                <p>PSY 101</p>
+                <p>ENG 101</p>
               </div>
               <div>
                 <h2>Classical vs. Operant Conditioning</h2>
