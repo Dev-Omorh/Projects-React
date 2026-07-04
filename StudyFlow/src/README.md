@@ -25,3 +25,27 @@ StudyFlow is a student productivity web application designed to help secondary s
 ## 🎯 Goal
 
 To build a scalable productivity application while learning modern React development.
+
+## 📅 Daily Progress
+
+### Day 1
+
+- Project idea
+
+### Day 2
+
+- Project idea
+- Set up React + Vite
+- Built the dashboard layout
+
+### Day 3
+
+- Added dashboard courses
+- Improved responsiveness
+
+### Day 4
+
+- Added task
+- Refined task cards
+
+### Day 5
