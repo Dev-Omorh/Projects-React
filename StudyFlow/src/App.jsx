@@ -14,29 +14,29 @@ function App() {
         <div className="card w-full flex justify-between  pt-4 gap-4">
           <div className="bg-white rounded-lg shadow-md w-3/12 p-4 flex flex-col items-left ">
             <img src="logo.png" alt="logo" />
-            <p>1</p>
-            <p>Due Today</p>
+            <p className="text-2xl font-bold">1</p>
+            <p className="text-gray-700 text-sm">Due Today</p>
           </div>
           <div className="bg-white rounded-lg shadow-md w-3/12 p-4 flex flex-col items-left ">
             <img src="logo.png" alt="logo" />
-            <p>4</p>
-            <p>Pending Assignments</p>
+            <p className="text-2xl font-bold">4</p>
+            <p className="text-gray-700 text-sm">Pending Assignments</p>
           </div>
           <div className="bg-white rounded-lg shadow-md w-3/12 p-4 flex flex-col items-left ">
             <img src="logo.png" alt="logo" />
-            <p>3</p>
-            <p>Upcoming Exams</p>
+            <p className="text-2xl font-bold">3</p>
+            <p className="text-gray-700 text-sm">Upcoming Exams</p>
           </div>
           <div className="bg-white rounded-lg shadow-md w-3/12 p-4 flex flex-col items-left ">
             <img src="logo.png" alt="logo" />
-            <p>4</p>
-            <p>Enrolled Courses</p>
+            <p className="text-2xl font-bold">4</p>
+            <p className="text-gray-700 text-sm">Enrolled Courses</p>
           </div>
         </div>
 
         <div className="courses w-full flex justify-between pt-4">
           <div className="Tasks bg-white rounded-lg shadow-md w-3xl p-4 flex flex-col items-left">
-            <div className="heading flex justify-between">
+            <div className="heading flex justify-between pb-4">
               <h2 className="text-black-700 font-bold">Upcoming Tasks</h2>
               <p className="text-blue-500">
                 <a href="/task"> View all </a>
@@ -44,74 +44,84 @@ function App() {
             </div>
 
             <div className="p-4">
-              <div className="flex justify-between">
-                <label htmlFor="task" className="flex flex-col">
+              <div className="flex justify-between pb-4">
+                <label htmlFor="task" className="flex flex-row gap-4">
                   <input type="radio" myRadio="" id="task" />
-                  <p>Complete Problem Set 5</p>
-                  <p> MATH 202</p>
+                  <div>
+                    <p>Complete Problem Set 5</p>
+                    <p> MATH 202</p>
+                  </div>
                 </label>
 
-                <div>
-                  <p className="bg-red-100 text-red-500 border-2 border-red-400 rounded-2xl w-14 text-center">
+                <div className="flex flex-col justify-items-end">
+                  <p className="bg-red-100 text-red-500 border-2 border-red-400 rounded-2xl w-14 text-center items-end">
                     High
                   </p>
-                  <p>Today</p>
+                  <p className="text-gray-400">Today</p>
                 </div>
               </div>
 
-              <div className="flex justify-between">
-                <label htmlFor="task" className="flex flex-col">
+              <div className="flex justify-between pb-4">
+                <label htmlFor="task" className="flex flex-row gap-4">
                   <input type="radio" myRadio="" id="task" />
-                  <p>Read Chapter 7 - Memory & Cognition</p>
-                  <p> MATH 202</p>
+                  <div>
+                    <p>Read Chapter 7 - Memory & Cognition</p>
+                    <p> MATH 202</p>
+                  </div>
                 </label>
 
-                <div>
+                <div className="flex flex-col justify-items-end">
                   <p className="bg-red-100 text-red-500 border-2 border-red-400 rounded-2xl w-14 text-center">
                     High
                   </p>
-                  <p>Tomorrow</p>
+                  <p className="text-gray-400">Tomorrow</p>
                 </div>
               </div>
 
-              <div className="flex justify-between">
-                <label htmlFor="task" className="flex flex-col">
+              <div className="flex justify-between pb-4">
+                <label htmlFor="task" className="flex flex-row gap-4">
                   <input type="radio" myRadio="" id="task" />
-                  <p>Outline essay on the French Revolution</p>
-                  <p> HiST 215</p>
+                  <div>
+                    <p>Outline essay on the French Revolution</p>
+                    <p> HiST 215</p>
+                  </div>
                 </label>
 
-                <div>
-                  <p className="bg-red-100 text-yellow-500 border-2 border-yellow-400 rounded-2xl w-18 text-center">
+                <div className="flex flex-col justify-items-end">
+                  <p className="bg-red-100 text-yellow-500 border-2 border-yellow-400 rounded-2xl w-18 text-center ">
                     Medium
                   </p>
-                  <p>3d</p>
+                  <p className="text-gray-400 flex justify-items-end">3d</p>
                 </div>
               </div>
 
-              <div className="flex justify-between">
-                <label htmlFor="task" className="flex flex-col">
+              <div className="flex justify-between pb-4">
+                <label htmlFor="task" className="flex flex-row gap-4">
                   <input type="radio" myRadio="" id="task" />
-                  <p>Submit thesis draft professor</p>
-                  <p> ENG 101</p>
+                  <div>
+                    <p>Submit thesis draft professor</p>
+                    <p> ENG 101</p>
+                  </div>
                 </label>
 
-                <div>
+                <div className="flex flex-col justify-items-end">
                   <p className="bg-red-100 text-red-500 border-2 border-red-400 rounded-2xl w-14 text-center">
                     High
                   </p>
-                  <p>4d</p>
+                  <p className="text-gray-400">4d</p>
                 </div>
               </div>
 
-              <div className="flex justify-between">
-                <label htmlFor="task" className="flex flex-col">
+              <div className="flex justify-between pb-4">
+                <label htmlFor="task" className="flex flex-row gap-4">
                   <input type="radio" myRadio="" id="task" />
-                  <p>Practice integration by parts</p>
-                  <p> MATH 202</p>
+                  <div>
+                    <p>Practice integration by parts</p>
+                    <p> MATH 202</p>
+                  </div>
                 </label>
 
-                <div>
+                <div className="flex flex-col justify-items-end">
                   <p className="bg-yellow-100 text-yellow-500 border-2 border-yellow-400 rounded-2xl w-18 text-center">
                     Medium
                   </p>
@@ -121,7 +131,7 @@ function App() {
             </div>
           </div>
 
-          <div clasName="Exam">
+          <div className="Exam bg-white rounded-lg shadow-md w-3xl p-4 flex flex-col items-left">
             <div className="heading flex justify-between">
               <h2 className="text-black-700 font-bold">Exam Countdown</h2>
               <p className="text-blue-500">
@@ -131,45 +141,45 @@ function App() {
 
             <div>
               <div className="counting">
-                <div>
+                <div className="flex justify-space gap-4">
                   <div>
                     <p>12</p>
                     <p>DAYS</p>
                   </div>
                   <div>
                     <p>PSY101 Midterm Exam</p>
-                    <p>Jul 15</p>
+                    <p className="text-gray-400">Jul 15</p>
                   </div>
                 </div>
-                <div>.</div>
+                <div className="text-black-800 ">.</div>
               </div>
 
               <div className="counting">
-                <div>
+                <div className="flex justify-space gap-4">
                   <div>
                     <p>15</p>
                     <p>DAYS</p>
                   </div>
                   <div>
                     <p>HIST215 Exam</p>
-                    <p>Jul 18</p>
+                    <p className="text-gray-400">Jul 18</p>
                   </div>
                 </div>
-                <div>.</div>
+                <div className="text-black-800 ">.</div>
               </div>
 
               <div className="counting">
-                <div>
+                <div className="flex justify-space gap-4">
                   <div>
                     <p>19</p>
                     <p>DAYS</p>
                   </div>
                   <div>
-                    <p>Calculus II Final</p>
-                    <p>Jul 22</p>
+                    <p className="text-gray-700">Calculus II Final</p>
+                    <p className="text-gray-400">Jul 22</p>
                   </div>
                 </div>
-                <div>.</div>
+                <div className="text-black-800 ">.</div>
               </div>
             </div>
           </div>
@@ -178,6 +188,5 @@ function App() {
     </div>
   );
 }
-<p>You are enrolled in 4 courses.</p>;
 
 export default App;
