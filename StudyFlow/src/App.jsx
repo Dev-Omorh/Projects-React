@@ -192,6 +192,72 @@ function App() {
               <a href="/exam">View all </a>
             </p>
           </div>
+
+          <div>
+            <div>
+              <div>
+                <span>.</span>
+                <p>PSY 101</p>
+              </div>
+              <div>
+                <h2>Classical vs. Operant Conditioning</h2>
+                <p>
+                  Classical: stimulus-response (Pavlov's dogs). Operant:
+                  behaviour-consequence (Skinner's box). Key difference:
+                  classical is involuntary, operant is voluntary. Reinforce
+                  schedules: fix...
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <div>
+                <span>.</span>
+                <p>MATH 202</p>
+              </div>
+              <div>
+                <h2>Integration by Parts Formula</h2>
+                <p>
+                  u dv = uv - v du LIATE rule for choosing u: . Logarithmic
+                  .Inversine trig .Algebraic .Trigonometric .Exponential
+                  Example: x.e^x dx - u=x, dv=e^dx - xe^x - e^x + C.
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <div>
+                <span>.</span>
+                <p>HIST 215</p>
+              </div>
+              <div>
+                <h2>Classical vs. Operant Conditioning</h2>
+                <p>
+                  Classical: stimulus-response (Pavlov's dogs). Operant:
+                  behaviour-consequence (Skinner's box). Key difference:
+                  classical is involuntary, operant is voluntary. Reinforce
+                  schedules: fix...
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <div>
+                <span>.</span>
+                <p>PSY 101</p>
+              </div>
+              <div>
+                <h2>Classical vs. Operant Conditioning</h2>
+                <p>
+                  {" "}
+                  Classical: stimulus-response (Pavlov's dogs). Operant:
+                  behaviour-consequence (Skinner's box). Key difference:
+                  classical is involuntary, operant is voluntary. Reinforce
+                  schedules: fix...
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
