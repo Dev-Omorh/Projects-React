@@ -131,7 +131,7 @@ function App() {
             </div>
           </div>
 
-          <div className="Exam bg-white rounded-lg shadow-md w-3xl p-4 flex flex-col items-left">
+          <div className="bg-white rounded-lg shadow-md w-3xl p-4 flex flex-col items-left">
             <div className="heading flex justify-between">
               <h2 className="text-black-700 font-bold">Exam Countdown</h2>
               <p className="text-blue-500">
@@ -185,7 +185,14 @@ function App() {
           </div>
         </div>
 
-        <div className></div>
+        <div className="bg-white rounded-lg shadow-md w-3xl p-4 flex flex-col items-left">
+          <div className="heading flex justify-between">
+            <h2 className="text-black-700 font-bold">Recent Notes</h2>
+            <p className="text-blue-500">
+              <a href="/exam">View all </a>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
