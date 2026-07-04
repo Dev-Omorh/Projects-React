@@ -30,7 +30,10 @@ function Tasks() {
                 <input type="radio" myRadio="" id="task" value="task" />
                 <div>
                   <p>Complete Problem Set 5</p>
-                  <p> MATH 202</p>
+                  <div className="text-gray-400">
+                    <p> MATH 202</p>
+                    <p>Today</p>
+                  </div>
                 </div>
               </label>
 
@@ -38,7 +41,6 @@ function Tasks() {
                 <p className="bg-red-100 text-red-500 border-2 border-red-400 rounded-2xl w-14 text-center items-end">
                   High
                 </p>
-                <p className="text-gray-400">Today</p>
               </div>
             </div>
 
@@ -47,7 +49,10 @@ function Tasks() {
                 <input type="radio" myRadio="" id="task" />
                 <div>
                   <p>Read Chapter 7 - Memory & Cognition</p>
-                  <p> MATH 202</p>
+                  <div className="text-gray-400">
+                    <p> MATH 202</p>
+                    <p>Tomorrow</p>
+                  </div>
                 </div>
               </label>
 
@@ -55,7 +60,6 @@ function Tasks() {
                 <p className="bg-red-100 text-red-500 border-2 border-red-400 rounded-2xl w-14 text-center">
                   High
                 </p>
-                <p className="text-gray-400">Tomorrow</p>
               </div>
             </div>
 
@@ -64,7 +68,10 @@ function Tasks() {
                 <input type="radio" myRadio="" id="task" />
                 <div>
                   <p>Outline essay on the French Revolution</p>
-                  <p> HiST 215</p>
+                  <div className="text-gray-400 flex">
+                    <p> HiST 215</p>
+                    <p>3d</p>
+                  </div>
                 </div>
               </label>
 
@@ -72,7 +79,6 @@ function Tasks() {
                 <p className="bg-red-100 text-yellow-500 border-2 border-yellow-400 rounded-2xl w-18 text-center ">
                   Medium
                 </p>
-                <p className="text-gray-400 flex justify-items-end">3d</p>
               </div>
             </div>
 
@@ -81,7 +87,10 @@ function Tasks() {
                 <input type="radio" myRadio="" id="task" />
                 <div>
                   <p>Submit thesis draft professor</p>
-                  <p> ENG 101</p>
+                  <div className="text-gray-400">
+                    <p> ENG 101</p>
+                    <p>4d</p>
+                  </div>
                 </div>
               </label>
 
@@ -89,7 +98,6 @@ function Tasks() {
                 <p className="bg-red-100 text-red-500 border-2 border-red-400 rounded-2xl w-14 text-center">
                   High
                 </p>
-                <p className="text-gray-400">4d</p>
               </div>
             </div>
 
@@ -98,9 +106,9 @@ function Tasks() {
                 <input type="radio" myRadio="" id="task" />
                 <div>
                   <p>Practice integration by parts</p>
-                  <div>
+                  <div className="text-gray-400">
                     <p> MATH 202</p>
-                    <p className="text-gray-400">5d</p>
+                    <p>5d</p>
                   </div>
                 </div>
               </label>
@@ -117,9 +125,9 @@ function Tasks() {
                 <input type="radio" myRadio="" id="task" />
                 <div>
                   <p>Review lecture notes from Monday</p>
-                  <div>
+                  <div className="text-gray-400">
                     <p> psy 101</p>
-                    <p className="text-gray-400">Due Jul 8</p>
+                    <p>Due Jul 8</p>
                   </div>
                 </div>
               </label>
