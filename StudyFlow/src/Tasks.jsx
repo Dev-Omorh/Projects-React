@@ -6,7 +6,7 @@ function Tasks() {
       </div>
 
       <div className="content p-4 bg-gray-100 w-full ">
-        <div className="Header">
+        <div className="Header flex justify-between">
           <div>
             <h1 className="text-3xl font-bold">Tasks</h1>
             <p className="text-gray-600">5 pending</p>
@@ -17,14 +17,22 @@ function Tasks() {
         </div>
 
         <div className="card w-full flex justify-between  pt-4 gap-4">
-          <button>All Tasks</button>
-          <button>Due Today</button>
-          <button>High Priority</button>
-          <button>Completed</button>
+          <button className="bg-white rounded-lg shadow-md w-3/12 p-4 flex flex-col items-left ">
+            All Tasks
+          </button>
+          <button className="bg-white rounded-lg shadow-md w-3/12 p-4 flex flex-col items-left ">
+            Due Today
+          </button>
+          <button className="bg-white rounded-lg shadow-md w-3/12 p-4 flex flex-col items-left ">
+            High Priority
+          </button>
+          <button className="bg-white rounded-lg shadow-md w-3/12 p-4 flex flex-col items-left ">
+            Completed
+          </button>
         </div>
 
-        <div>
-          <div className="p-4">
+        <div className=" w-full flex justify-between pt-4">
+          <div className="bg-white rounded-lg shadow-md w-3xl p-4 pr-35 flex flex-col items-left">
             <div className="flex justify-between pb-4">
               <label htmlFor="task" className="flex flex-row gap-4">
                 <input type="radio" myRadio="" id="task" value="task" />
@@ -134,7 +142,7 @@ function Tasks() {
 
               <div className="flex flex-col justify-items-end">
                 <p className="bg-yellow-100 text-yellow-500 border-2 border-yellow-400 rounded-2xl w-18 text-center">
-                  Medium
+                  low
                 </p>
               </div>
             </div>

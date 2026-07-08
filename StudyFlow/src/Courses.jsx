@@ -1,9 +1,13 @@
-function Pages() {
+function Courses() {
   return (
     <div>
-      <h1>Hello World!</h1>
+      <div></div>
+
+      <div></div>
+
+      <div></div>
     </div>
   );
 }
 
-export default Pages;
+export default Courses;
