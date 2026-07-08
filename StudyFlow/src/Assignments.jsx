@@ -1,4 +1,4 @@
-function Course() {
+function Assignments() {
   return (
     <div>
       <h1>Hello World!</h1>
@@ -6,4 +6,4 @@ function Course() {
   );
 }
 
-export default Course;
+export default Assignments;

@@ -1,10 +1,10 @@
+import Logo from "./components/Logo";
+
 function Courses() {
   return (
     <div>
       <div>
-        <div className="logo text-xl font-bold ">
-          <img src="logo.png" alt="logo" /> <p>StudyFlow</p>
-        </div>
+        <Logo />
       </div>
 
       <div className="content p-4 bg-gray-100 w-full">
