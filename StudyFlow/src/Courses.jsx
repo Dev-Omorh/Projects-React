@@ -1,3 +1,4 @@
+import Button from "./components/Button";
 import Logo from "./components/Logo";
 
 function Courses() {
@@ -13,11 +14,8 @@ function Courses() {
             <h1 className="text-3xl font-bold">Courses</h1>
             <p className="text-gray-600">4 enrolled this semester</p>
           </div>
-          <div>
-            <button className="btn bg-blue-500 py-2 px-4 rounded-md">
-              + Add Course
-            </button>
-          </div>
+
+          <Button />
         </div>
 
         <div className="body">
