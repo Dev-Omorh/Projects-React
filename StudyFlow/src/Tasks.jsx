@@ -12,7 +12,10 @@ function Tasks() {
             <p className="text-gray-600">5 pending</p>
           </div>
           <div>
-            <button className=""> + Add Task</button>
+            <button className="btn bg-blue-500 py-2 px-4 rounded-md">
+              {" "}
+              + Add Task
+            </button>
           </div>
         </div>
 
