@@ -1,4 +1,5 @@
 import Logo from "./components/Logo";
+import Button from "./components/Button";
 
 function Tasks() {
   return (
@@ -13,12 +14,8 @@ function Tasks() {
             <h1 className="text-3xl font-bold">Tasks</h1>
             <p className="text-gray-600">5 pending</p>
           </div>
-          <div>
-            <button className="btn bg-blue-500 py-2 px-4 rounded-md">
-              {" "}
-              + Add Task
-            </button>
-          </div>
+
+          <Button />
         </div>
 
         <div className="card w-full flex justify-between  pt-4 gap-4">

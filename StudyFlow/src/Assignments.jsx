@@ -1,7 +1,13 @@
+import Logo from "./components/Logo";
+
 function Assignments() {
   return (
     <div>
-      <h1>Hello World!</h1>
+      <div>
+        <Logo />
+      </div>
+
+      <div></div>
     </div>
   );
 }
