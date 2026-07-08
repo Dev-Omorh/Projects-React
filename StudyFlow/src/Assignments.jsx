@@ -12,7 +12,7 @@ function Assignments() {
         <div className="Header flex justify-between">
           <div>
             <h1 className="text-3xl font-bold">Courses</h1>
-            <p className="text-gray-600">4 enrolled this semester</p>
+            <p className="text-gray-600">5 active</p>
           </div>
 
           <Button />
@@ -39,123 +39,123 @@ function Assignments() {
         <div className=" w-full flex justify-between pt-4">
           <div className="bg-white rounded-lg shadow-md w-3xl p-4 pr-35 flex flex-col items-left">
             <div className="flex justify-between pb-4">
-              <label htmlFor="task" className="flex flex-row gap-4">
-                <input type="radio" myRadio="" id="task" value="task" />
+              <div>
+                <span></span>
                 <div>
-                  <p>Complete Problem Set 5</p>
+                  <p>Midterm Exam Review Sheet</p>
                   <div className="text-gray-400">
                     <p> MATH 202</p>
-                    <p>Today</p>
+                    <p>Complete</p>
                   </div>
                 </div>
-              </label>
+              </div>
 
               <div className="flex flex-col justify-items-end">
                 <p className="bg-red-100 text-red-500 border-2 border-red-400 rounded-2xl w-14 text-center items-end">
-                  High
+                  Graded
                 </p>
               </div>
             </div>
 
             <div className="flex justify-between pb-4">
-              <label htmlFor="task" className="flex flex-row gap-4">
-                <input type="radio" myRadio="" id="task" />
+              <div>
+                <span></span>
                 <div>
-                  <p>Read Chapter 7 - Memory & Cognition</p>
+                  <p>Integration Technique Quiz</p>
                   <div className="text-gray-400">
                     <p> MATH 202</p>
-                    <p>Tomorrow</p>
+                    <p>5d overdue</p>
                   </div>
                 </div>
-              </label>
+              </div>
 
               <div className="flex flex-col justify-items-end">
                 <p className="bg-red-100 text-red-500 border-2 border-red-400 rounded-2xl w-14 text-center">
-                  High
+                  Submitted
                 </p>
               </div>
             </div>
 
             <div className="flex justify-between pb-4">
-              <label htmlFor="task" className="flex flex-row gap-4">
-                <input type="radio" myRadio="" id="task" />
+              <div>
+                <span></span>
                 <div>
-                  <p>Outline essay on the French Revolution</p>
-                  <div className="text-gray-400 flex">
-                    <p> HiST 215</p>
-                    <p>3d</p>
+                  <p>Reflection Paper - Pavlov's Conditioning</p>
+                  <div>
+                    <p>PSY 101</p>
+                    <p>3d overdue </p>
                   </div>
                 </div>
-              </label>
-
-              <div className="flex flex-col justify-items-end">
-                <p className="bg-red-100 text-yellow-500 border-2 border-yellow-400 rounded-2xl w-18 text-center ">
-                  Medium
-                </p>
               </div>
             </div>
 
-            <div className="flex justify-between pb-4">
-              <label htmlFor="task" className="flex flex-row gap-4">
-                <input type="radio" myRadio="" id="task" />
-                <div>
-                  <p>Submit thesis draft professor</p>
-                  <div className="text-gray-400">
-                    <p> ENG 101</p>
-                    <p>4d</p>
-                  </div>
-                </div>
-              </label>
+            <div className="flex flex-col justify-items-end">
+              <p className="bg-red-100 text-yellow-500 border-2 border-yellow-400 rounded-2xl w-18 text-center ">
+                In progress
+              </p>
+            </div>
+          </div>
 
-              <div className="flex flex-col justify-items-end">
-                <p className="bg-red-100 text-red-500 border-2 border-red-400 rounded-2xl w-14 text-center">
-                  High
-                </p>
+          <div className="flex justify-between pb-4">
+            <div>
+              <span></span>
+              <div>
+                <p>Argumentative Essay Draft</p>
+                <div className="text-gray-400">
+                  <p> ENG 101</p>
+                  <p>1d overdue</p>
+                </div>
               </div>
             </div>
 
-            <div className="flex justify-between pb-4">
-              <label htmlFor="task" className="flex flex-row gap-4">
-                <input type="radio" myRadio="" id="task" />
-                <div>
-                  <p>Practice integration by parts</p>
-                  <div className="text-gray-400">
-                    <p> MATH 202</p>
-                    <p>5d</p>
-                  </div>
-                </div>
-              </label>
+            <div className="flex flex-col justify-items-end">
+              <p className="bg-red-100 text-red-500 border-2 border-red-400 rounded-2xl w-14 text-center">
+                In Progress
+              </p>
+            </div>
+          </div>
 
-              <div className="flex flex-col justify-items-end">
-                <p className="bg-yellow-100 text-yellow-500 border-2 border-yellow-400 rounded-2xl w-18 text-center">
-                  Medium
-                </p>
+          <div className="flex justify-between pb-4">
+            <div>
+              <span></span>
+              <div>
+                <p>Primary Source Analysis</p>
+                <div className="text-gray-400">
+                  <p> HIST 215</p>
+                  <p>Due Jul 10</p>
+                </div>
               </div>
             </div>
 
-            <div className="flex justify-between pb-4">
-              <label htmlFor="task" className="flex flex-row gap-4">
-                <input type="radio" myRadio="" id="task" />
-                <div>
-                  <p>Review lecture notes from Monday</p>
-                  <div className="text-gray-400">
-                    <p> psy 101</p>
-                    <p>Due Jul 8</p>
-                  </div>
-                </div>
-              </label>
+            <div className="flex flex-col justify-items-end">
+              <p className="bg-yellow-100 text-yellow-500 border-2 border-yellow-400 rounded-2xl w-18 text-center">
+                Not Started
+              </p>
+            </div>
+          </div>
 
-              <div className="flex flex-col justify-items-end">
-                <p className="bg-yellow-100 text-yellow-500 border-2 border-yellow-400 rounded-2xl w-18 text-center">
-                  low
-                </p>
+          <div className="flex justify-between pb-4">
+            <div>
+              <span></span>
+              <div>
+                <p>Group Presentation Slides</p>
+                <div className="text-gray-400">
+                  <p>PSY 101</p>
+                  <p>Due Jul 12</p>
+                </div>
               </div>
+            </div>
+
+            <div className="flex flex-col justify-items-end">
+              <p className="bg-yellow-100 text-yellow-500 border-2 border-yellow-400 rounded-2xl w-18 text-center">
+                Not Started
+              </p>
             </div>
           </div>
         </div>
-
-        <div></div>
       </div>
+
+      <p> Tip: clicka status badge to advance it to next stage </p>
     </div>
   );
 }
