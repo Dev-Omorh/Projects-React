@@ -104,17 +104,12 @@ function Note() {
             <p>
               Thesis: clear, arguable, specific claim
               <br />
-              1791 - Body paragraphs: topic sentence, eveidence, analysis,
-              transition
+              Body paragraphs: topic sentence, eveidence, analysis, transition
               <br />
-              1793 - Reign of Terror begins under Robespierre
+              COnclusion: synthesis, don't just summarize.
             </p>
           </div>
-
-          <div></div>
         </div>
-
-        <div></div>
       </div>
     </div>
   );
